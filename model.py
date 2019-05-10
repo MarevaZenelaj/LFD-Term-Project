@@ -29,7 +29,11 @@ train = train[:,:-1]
 test = read_csv_file('test.csv')
 
 print("train data: ", train.shape)
+<<<<<<< HEAD
 print("test data: ", test.shape)
 
 model = Sequental()
 model.add(Dense(2,input_dim=))
+=======
+print("test data: ", test.shape)
+>>>>>>> origin/master
